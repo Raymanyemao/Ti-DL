@@ -12,7 +12,7 @@ Tidal-DL: 24th Feb 19 - Release 1
 ## Mandatory ##
 The following need to be inputted into the config file:
 - Email address
-- Quality - 1 = low (96 kbps), 2 = high (320 kbps), 3 = lossless, 4 = HI_RES. If the chosen qual is unavailable, the next best option will be used as a fallback.
+- Quality - 1 = LOW (96 kbps), 2 = HIGH (320 kbps), 3 = LOSSLESS, 4 = HI_RES. If the chosen qual is unavailable, the next best option will be used as a fallback.
 - Plain text password
 - Locale
 - Naming scheme - file naming scheme (1 = "01. ", 2 = "01 -").
