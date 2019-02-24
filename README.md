@@ -17,7 +17,7 @@ The following need to be inputted into the config file:
 - Locale
 - Naming scheme - file naming scheme (1 = "01. ", 2 = "01 -").
 - Cover size - cover size to request from API (1 = 160x160, 2 = 320x320, 3 = 640x640, 4 = 1280x1280).
-- Keep_cover' - leave folder.jpg in album dir, Y or N. Not usable with Qobuz-DL_Playlist.
+- Keep_cover' - leave folder.jpg in album dir, Y or N.
 - All tags under "[Tags]" except comment - "Y" or "N".
 
 **You can't download ANY tracks with a free account.**
