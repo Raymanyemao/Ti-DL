@@ -90,5 +90,5 @@ QOBUZ-DL_X64.EXE
 Enlarging the console window manually by dragging out from the edges might also work.
 
 # Disclaimer
-This tool does NOT contain code to decrypt encrypted tracks from Tidal.
+This tool does NOT contain code to decrypt encrypted tracks from Tidal.   
 I will not be responsible for how you use this tool.
