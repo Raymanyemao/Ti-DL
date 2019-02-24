@@ -5,6 +5,9 @@ Sister of [Qobuz-DL](https://github.com/Sorrow446/Qobuz-DL).
 Latest versions:    
 Tidal-DL: 24th Feb 19 - Release 1
 
+![](https://thoas.feralhosting.com/sorrow/Tidal-DL/b1.jpg)
+![](https://thoas.feralhosting.com/sorrow/Tidal-DL/b2.jpg)
+
 # Setup
 ## Mandatory ##
 The following need to be inputted into the config file:
