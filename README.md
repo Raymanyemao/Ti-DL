@@ -75,8 +75,10 @@ If you need to get in touch: Sorrow#5631
 - **Check for checking if user's subscription is eligible to get tracks in chosen quality. Need a Premium account for this (not a Hi-Fi one).**
 - GUI version.
 - Single track support.
+- Playlist support.
 - More command line options.
 - General code clean up.
+
 
 # Known Issues
 - Printing languages like Chinese, Japanese & Korean to the console prints garbage instead.
