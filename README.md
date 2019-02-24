@@ -1,8 +1,8 @@
 # Tidal-DL
-Tool written in Python to download AACs & FLACs from Tidal for Windows, and soon to be Linux.
+Tool written in Python to download AACs & FLACs from Tidal for Windows (and soon to be Linux).
 Sister of [Qobuz-DL](https://github.com/Sorrow446/Qobuz-DL).
 
-Latest versions:    
+Latest version:    
 Tidal-DL: 24th Feb 19 - Release 1
 
 ![](https://thoas.feralhosting.com/sorrow/Tidal-DL/b1.jpg)
