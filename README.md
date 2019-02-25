@@ -3,7 +3,7 @@ Tool written in Python to download AACs & FLACs from Tidal for Windows (and soon
 Sister of [Qobuz-DL](https://github.com/Sorrow446/Qobuz-DL).
 
 Latest version:    
-Tidal-DL: 24th Feb 19 - Release 1
+Tidal-DL: 25th Feb 19 - Release 1a
 
 ![](https://thoas.feralhosting.com/sorrow/Tidal-DL/b1.jpg)
 ![](https://thoas.feralhosting.com/sorrow/Tidal-DL/b2.jpg)
@@ -43,7 +43,11 @@ Tidal-DL_x64.exe list
 # Update Log
 ## Tidal-DL ##
 ### 24th Feb 19 - Release 1 ###
-
+### 25th Feb 19 - Release 1a ###
+The below would show for everyone, but me. Fixed.
+```
+"Account doesn't have a subscription.
+```
 # Misc Info
 Written around Python v3.6.7.  
 Used libraries:
