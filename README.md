@@ -46,7 +46,7 @@ Tidal-DL_x64.exe list
 ### 25th Feb 19 - Release 1a ###
 The below would show for everyone, but me. Fixed.
 ```
-"Account doesn't have a subscription.
+Account doesn't have a subscription.
 ```
 # Misc Info
 Written around Python v3.6.7.  
