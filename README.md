@@ -83,6 +83,7 @@ If you need to get in touch: Sorrow#5631
 - General code clean up.
 - Option in config file to wipe misc tags from tracks after downloading.
 Some tracks come with tags like encoder, MQA tags etc. straight from the API.
+- Fix downloading albums via CLI. Broken.
 
 
 # Known Issues
