@@ -3,7 +3,7 @@ Tool written in Python to download AACs & FLACs from Tidal for Windows (and soon
 Sister of [Qobuz-DL](https://github.com/Sorrow446/Qobuz-DL).
 
 Latest version:    
-Tidal-DL: 25th Feb 19 - Release 1a
+Tidal-DL: 28th Feb 19 - Release 1b
 
 ![](https://thoas.feralhosting.com/sorrow/Tidal-DL/b1.jpg)
 ![](https://thoas.feralhosting.com/sorrow/Tidal-DL/b2.jpg)
@@ -31,15 +31,26 @@ Fill in your config file first.
 ### Windows ###
 Run the exe.
 
-Tidal-DL can also be used via command line. It'll exit automatically once it finishes with no errors.
+Tidal-DL can also be used via command line.
 Ex:
 ```
-Download album:
-Tidal-DL_x64.exe https://listen.tidal.com/album/53834847
-Download from list (List.txt) of URLs: 
-Tidal-DL_x64.exe list
-```
+usage: Tidal-DL.py [-h] [-url URL] [-q Q] [-p P] [-list LIST] [-c C] [-s S]
+                   [-k K]
 
+optional arguments:
+  -h, --help  show this help message and exit
+  -url URL    Tidal web player URL.
+  -q Q        Download quality. 1 = low (96 kbps), 2 = high (320 kbps), 3 =
+              lossless, 4 = HI_RES. If the chosen qual is unavailable, the
+              next best option will be used as a fallback.
+  -p P        Where to move album after downloading. Make sure you wrap this
+              up in double quotes.
+  -list LIST  Download from a list of URLs. -list <txt filename>.
+  -c C        Cover size to fetch. 1 = 160x160, 2 = 320x320, 3 = 640x640, 4 =
+              1280x1280.
+  -s S        File naming scheme. 1 = "01. ", 2 = "01 -"
+  -k K        Leave folder.jpg in album dir. Y or N.
+```
 # Update Log
 ## Tidal-DL ##
 ### 24th Feb 19 - Release 1 ###
@@ -48,9 +59,14 @@ The below would show for everyone, but me. Fixed.
 ```
 Account doesn't have a subscription.
 ```
+### 28th Feb 19 - Release 1b ###
+- Fixed downloading albums via CLI.
+- Much more command line options.
+
 # Misc Info
 Written around Python v3.6.7.  
 Used libraries:
+- argparse
 - clint
 - codecs
 - configparser
@@ -79,7 +95,6 @@ If you need to get in touch: Sorrow#5631
 - GUI version.
 - Single track support.
 - Playlist support.
-- More command line options.
 - General code clean up.
 - Option in config file to wipe misc tags from tracks after downloading.
 Some tracks come with tags like encoder, MQA tags etc. straight from the API.
