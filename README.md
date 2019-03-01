@@ -55,7 +55,7 @@ optional arguments:
 ## Tidal-DL ##
 ### 24th Feb 19 - Release 1 ###
 ### 25th Feb 19 - Release 1a ###
-The below would show for everyone, but me. Fixed.
+The below would show for everyone but me. Fixed.
 ```
 Account doesn't have a subscription.
 ```
