@@ -31,25 +31,31 @@ Fill in your config file first.
 ### Windows ###
 Run the exe.
 
-Tidal-DL can also be used via command line.
+Qobuz-DL can also be used via command line.
 Ex:
 ```
-usage: Tidal-DL.py [-h] [-url URL] [-q Q] [-p P] [-list LIST] [-c C] [-s S]
-                   [-k K]
+usage: Qobuz-DL.py [-h] [-url URL] [-q Q] [-p P] [-list LIST] [-c C] [-s S]
+                   [-k K] [-proxy PROXY] [-comment COMMENT]
 
 optional arguments:
-  -h, --help  show this help message and exit
-  -url URL    Tidal web player URL.
-  -q Q        Download quality. 1 = low (96 kbps), 2 = high (320 kbps), 3 =
-              lossless, 4 = HI_RES. If the chosen qual is unavailable, the
-              next best option will be used as a fallback.
-  -p P        Where to move album after downloading. Make sure you wrap this
-              up in double quotes.
-  -list LIST  Download from a list of URLs. -list <txt filename>.
-  -c C        Cover size to fetch. 1 = 160x160, 2 = 320x320, 3 = 640x640, 4 =
-              1280x1280.
-  -s S        File naming scheme. 1 = "01. ", 2 = "01 -"
-  -k K        Leave folder.jpg in album dir. Y or N.
+  -h, --help        show this help message and exit
+  -url URL          Qobuz Player or Qobuz store URL.
+  -q Q              Download quality. 5 = 320 kbps MP3, 6 = 16-bit FLAC, 7 =
+                    24-bit / =< 96kHz FLAC, 27 = best avail - 24-bit / >96 kHz
+                    =< 192 kHz FLAC. If the chosen qual is unavailable, the
+                    next best option will be used as a fallback.
+  -p P              Where to move album after downloading. Make sure you wrap
+                    this up in double quotes.
+  -list LIST        Download from a list of URLs. -list <txt filename>.
+  -c C              Cover size to fetch. 1 = 230x230, 2 = 600x600.
+  -s S              File naming scheme. 1 = "01. ", 2 = "01 -"
+  -k K              Leave folder.jpg in album dir. Y or N.
+  -proxy PROXY      <IP address>:<port>. Must be https. This can't be used to
+                    bypass Qobuz's region restrictions for track downloading.
+                    It only prevents 404s.
+  -comment COMMENT  Custom comment. You can also input "URL" to write the
+                    album URL to the field. Make sure you wrap this up in
+                    double quotes.
 ```
 # Update Log
 ## Tidal-DL ##
