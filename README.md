@@ -84,7 +84,7 @@ Used libraries:
 Misc:
 - Any specials characters that Windows doesn't support in filenames are replaced with "-".  
 - If an album folder needs to be made, but already exists, it and its contents will be deleted.  
-- **If the following files exist in the current working dir, they'll be deleted: (1-1000).flac/.mp3, cover.jpg, booklet.pdf. This is to avoid any filename clashes. Filename clashes are also handled inside of album folders.**
+- **If the following files exist in the current working dir, they'll be deleted: (1-1000).flac/.m4a, cover.jpg, booklet.pdf. This is to avoid any filename clashes. Filename clashes are also handled inside of album folders.**
 
 If you need to get in touch: Sorrow#5631
 
