@@ -99,6 +99,8 @@ If you need to get in touch: Sorrow#5631
 Some tracks come with tags like encoder, MQA tags etc. straight from the API.
 
 # Known Issues
+- album artist is always identical to track artist. FIXED, will be in next build.
+- If there's more than more artist for an album title or title, only the first will be used. FIXED for single track (still working on album), will be in next build.   
 - Printing languages like Chinese, Japanese & Korean to the console prints garbage instead.
 
 This can be fixed by temporarily changing your OS' locale.
