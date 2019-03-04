@@ -106,7 +106,7 @@ If you need to get in touch: Sorrow#5631
 Some tracks come with tags like encoder, MQA tags etc. straight from the API.
 
 # Known Issues
-- The below will show when downloading single tracks that belong to the same albums. This would make sense for albums, but not for single tracks.
+- The below will show when downloading single tracks with the -p arg / Move_to active that belong to the same album while the destination album folder already exists. This would make sense for albums, but not for single tracks.
 ```
 "The destination album folder already exists, and access to delete it was denied. Delete it manually and then press any key.")
 ```
