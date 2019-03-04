@@ -31,6 +31,19 @@ You can specify what you want to be put into the comment field in your tracks. S
 Fill in your config file first.
 ### Windows ###
 Run the exe.
+### Linux ###
+CD to wherever the exe is.
+```
+cd Desktop
+```
+Make it executable.
+```
+chmod +x Tidal-DL_Lin_x86
+```
+Launch it.
+```
+./Tidal-DL_Lin_x86
+```
 
 Tidal-DL can also be used via command line.
 Ex:
