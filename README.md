@@ -4,6 +4,7 @@ Sister of [Qobuz-DL](https://github.com/Sorrow446/Qobuz-DL).
 
 Latest version:    
 Tidal-DL: 3rd Mar 19 - Release 1c
+Tidal-DL Linux: 3rd Mar 19 - Release 1c
 
 ![](https://thoas.feralhosting.com/sorrow/Tidal-DL/b1.jpg)
 ![](https://thoas.feralhosting.com/sorrow/Tidal-DL/b2.jpg)
@@ -66,12 +67,14 @@ Account doesn't have a subscription.
 - Fixed downloading albums via CLI.
 - Much more command line options.
 ### 3rd Mar 19 - Release 1c ###
+- Linux build added.
 - Single track download support. This can be used with the "-url" arg too.
 - Fixed album artist & track artist tags. If there are more than one, they'll be written to the tags now.
 - allowStreaming check for single tracks (still need to do for albums).
 - New command line arg option: comment.
 - Less strict filename & dir name replace regex. Brackets and commas were being replaced before.
 - Windows' max path limit handled. I couldn't do much about this. Tidal-DL won't crash anymore if it runs into this. The track's filename will be left as it was before the renaming attempt. Tags won't be affected.
+- Unneeded cover.jpg wasn't being deleted before termination. This would only happen when used via command line.
 
 # Misc Info
 Written around Python v3.6.7.
