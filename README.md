@@ -3,7 +3,7 @@ Tool written in Python to download AACs & FLACs from Tidal for Windows (and soon
 Sister of [Qobuz-DL](https://github.com/Sorrow446/Qobuz-DL).
 
 Latest version:    
-Tidal-DL: 28th Feb 19 - Release 1b
+Tidal-DL: 3rd Mar 19 - Release 1c
 
 ![](https://thoas.feralhosting.com/sorrow/Tidal-DL/b1.jpg)
 ![](https://thoas.feralhosting.com/sorrow/Tidal-DL/b2.jpg)
@@ -31,24 +31,28 @@ Fill in your config file first.
 ### Windows ###
 Run the exe.
 
-Qobuz-DL can also be used via command line.
+Tidal-DL can also be used via command line.
 Ex:
 ```
 usage: Tidal-DL.py [-h] [-url URL] [-q Q] [-p P] [-list LIST] [-c C] [-s S]
                    [-k K]
 optional arguments:
-  -h, --help  show this help message and exit
-  -url URL    Tidal web player URL.
-  -q Q        Download quality. 1 = low (96 kbps), 2 = high (320 kbps), 3 =
-              lossless, 4 = HI_RES. If the chosen qual is unavailable, the
-              next best option will be used as a fallback.
-  -p P        Where to move album after downloading. Make sure you wrap this
-              up in double quotes.
-  -list LIST  Download from a list of URLs. -list <txt filename>.
-  -c C        Cover size to fetch. 1 = 160x160, 2 = 320x320, 3 = 640x640, 4 =
-              1280x1280.
-  -s S        File naming scheme. 1 = "01. ", 2 = "01 -"
-  -k K        Leave folder.jpg in album dir. Y or N.
+  -h, --help        show this help message and exit
+  -url URL          Tidal web player URL.
+  -q Q              Download quality. 1 = low (96 kbps), 2 = high (320 kbps),
+                    3 = lossless, 4 = HI_RES. If the chosen qual is
+                    unavailable, the next best option will be used as a
+                    fallback.
+  -p P              Where to move album after downloading. Make sure you wrap
+                    this up in double quotes.
+  -list LIST        Download from a list of URLs. -list <txt filename>.
+  -c C              Cover size to fetch. 1 = 160x160, 2 = 320x320, 3 =
+                    640x640, 4 = 1280x1280.
+  -s S              File naming scheme. 1 = "01. ", 2 = "01 -"
+  -k K              Leave folder.jpg in album dir. Y or N.
+  -comment COMMENT  Custom comment. You can also input "URL" to write the
+                    album URL to the field. Make sure you wrap this up in
+                    double quotes.
 ```
 # Update Log
 ## Tidal-DL ##
@@ -61,9 +65,15 @@ Account doesn't have a subscription.
 ### 28th Feb 19 - Release 1b ###
 - Fixed downloading albums via CLI.
 - Much more command line options.
+### 3rd Mar 19 - Release 1c ###
+- Single track download support.
+- Fixed album artist & track artist tags. If there are more than one, they'll be written to the tags now.
+- allowStreaming check for single tracks (still need to do for albums).
+- New command line arg option: comment.
+- Less strict filename & dir name replace regex. Brackets and commas were being replaced before.
 
 # Misc Info
-Written around Python v3.6.7.  
+Written around Python v3.6.7.
 Used libraries:
 - argparse
 - clint
@@ -89,18 +99,17 @@ Misc:
 If you need to get in touch: Sorrow#5631
 
 # To Do
-- **Restricted tracks handler.**
-- **Check for checking if user's subscription is eligible to get tracks in chosen quality. Need a Premium account for this (not a Hi-Fi one).**
-- GUI version.
-- Single track support.
+- **Check for checking if users' subscription is eligible to get tracks in chosen quality. Need a Premium account for this (not a Hi-Fi one).**
 - Playlist support.
 - General code clean up.
 - Option in config file to wipe misc tags from tracks after downloading.
 Some tracks come with tags like encoder, MQA tags etc. straight from the API.
 
 # Known Issues
-- album artist is always identical to track artist. FIXED, will be in next build.
-- If there's more than more artist for an album title or title, only the first will be used. FIXED for single track (still working on album), will be in next build.   
+- The below will show when downloading single tracks that belong to the same albums. This would make sense for albums, but not for single tracks.
+```
+"The destination album folder already exists, and access to delete it was denied. Delete it manually and then press any key.")
+```
 - Printing languages like Chinese, Japanese & Korean to the console prints garbage instead.
 
 This can be fixed by temporarily changing your OS' locale.
