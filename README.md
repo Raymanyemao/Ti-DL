@@ -142,4 +142,5 @@ Enlarging the console window manually by dragging out from the edges might also 
 
 # Disclaimer
 This tool does NOT contain code to decrypt encrypted tracks from Tidal.   
+This tool is NOT affiliated with Tidal.      
 I will not be responsible for how you use this tool.
