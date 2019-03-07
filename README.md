@@ -1,4 +1,4 @@
-# Tidal-DL
+# Ti-DL
 Tool written in Python to download AACs & FLACs from Tidal for Windows and Linux.
 Sister of [Qobuz-DL](https://github.com/Sorrow446/Qobuz-DL).
 
