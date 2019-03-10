@@ -1,10 +1,10 @@
 # Ti-DL
 Tool written in Python to download AACs & FLACs from Tidal for Windows and Linux.
-Sister of [Qobuz-DL](https://github.com/Sorrow446/Qobuz-DL).
+Sister of [Qo-DL](https://github.com/Sorrow446/Qobuz-DL).
 
 Latest version:    
-Tidal-DL: 3rd Mar 19 - Release 1c   
-Tidal-DL Linux: 3rd Mar 19 - Release 1c
+Ti-DL: 3rd Mar 19 - Release 1c   
+Ti-DL Linux: 3rd Mar 19 - Release 1c
 
 ![](https://thoas.feralhosting.com/sorrow/Tidal-DL/b1.jpg)
 ![](https://thoas.feralhosting.com/sorrow/Tidal-DL/b2.jpg)
@@ -38,17 +38,17 @@ cd Desktop
 ```
 Make it executable.
 ```
-chmod +x Tidal-DL_Lin_x86
+chmod +x Ti-DL_Lin_x86
 ```
 Launch it.
 ```
-./Tidal-DL_Lin_x86
+./Ti-DL_Lin_x86
 ```
 
-Tidal-DL can also be used via command line.
+Ti-DL can also be used via command line.
 Ex:
 ```
-usage: Tidal-DL.py [-h] [-url URL] [-q Q] [-p P] [-list LIST] [-c C] [-s S]
+usage: Ti-DL.py [-h] [-url URL] [-q Q] [-p P] [-list LIST] [-c C] [-s S]
                    [-k K]
 optional arguments:
   -h, --help        show this help message and exit
@@ -69,7 +69,7 @@ optional arguments:
                     double quotes.
 ```
 # Update Log
-## Tidal-DL ##
+## Ti-DL ##
 ### 24th Feb 19 - Release 1 ###
 ### 25th Feb 19 - Release 1a ###
 The below would show for everyone but me. Fixed.
@@ -141,6 +141,7 @@ QOBUZ-DL_X64.EXE
 Enlarging the console window manually by dragging out from the edges might also work.
 
 # Disclaimer
-This tool does NOT contain code to decrypt encrypted tracks from Tidal.   
-This tool is NOT affiliated with Tidal.      
-I will not be responsible for how you use this tool.
+Ti-DL does NOT contain code to decrypt encrypted tracks from Tidal.                  
+I will not be responsible for how you use Ti-DL.              
+Tidal brand and name is the registered trademark of its respective owner.    
+Ti-DL has no partnership, sponsorship or endorsement with Tidal.      
