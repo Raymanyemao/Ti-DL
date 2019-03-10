@@ -139,6 +139,7 @@ MODE CON cols=200 lines=30
 QOBUZ-DL_X64.EXE
 ```
 Enlarging the console window manually by dragging out from the edges might also work.
+- Tracks in albums with multiple track artists are broken, but are fine if you use the single tracks download feature.
 
 # Disclaimer
 Ti-DL does NOT contain code to decrypt encrypted tracks from Tidal.                  
