@@ -103,7 +103,7 @@ Account doesn't have a subscription.
 - allowStreaming check for single tracks (still need to do for albums).
 - New command line arg option: comment.
 - Less strict filename & dir name replace regex. Brackets and commas were being replaced before.
-- Windows' max path limit handled. I couldn't do much about this. Tidal-DL won't crash anymore if it runs into this. The track's filename will be left as it was before the renaming attempt. Tags won't be affected.
+- Windows' max path limit handled. I couldn't do much about this. Ti-DL won't crash anymore if it runs into this. The track's filename will be left as it was before the renaming attempt. Tags won't be affected.
 - Unneeded cover.jpg wasn't being deleted before termination. This would only happen when used via command line.
 ### 13th Mar 19 - Release 1d ###
 - Fixed filename / dir name replace regex. Only the characters the OS doesn't support in filenames will be replaced now.
@@ -162,7 +162,7 @@ This can be fixed by setting the width & height before calling the exe, like thi
 ```
 REM 200 & 30 should be fine
 MODE CON cols=200 lines=30
-QOBUZ-DL_X64.EXE
+TI-DL_X64.EXE
 ```
 Enlarging the console window manually by dragging out from the edges might also work.
 - Tracks in albums with multiple track artists are broken, but are fine if you use the single tracks download feature.
