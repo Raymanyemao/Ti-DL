@@ -6,13 +6,17 @@ Latest versions:
 
 Windows:   
 Ti-DL: 13th Mar 19 - Release 1d   
+Ti-DL GUI: 13th Mar 19 - v0.0.5   
 
 Linux:   
 Ti-DL: 13th Mar 19 - Release 1d 
 
 macOS:   
 Ti-DL: 13th Mar 19 - Release 1d 
-
+![](https://thoas.feralhosting.com/sorrow/Tidal-DL/GUI1.png)
+![](https://thoas.feralhosting.com/sorrow/Tidal-DL/GUI2.png)
+![](https://thoas.feralhosting.com/sorrow/Tidal-DL/GUI3.png)
+![](https://thoas.feralhosting.com/sorrow/Tidal-DL/GUI4.png)
 ![](https://thoas.feralhosting.com/sorrow/Tidal-DL/b1.jpg)
 ![](https://thoas.feralhosting.com/sorrow/Tidal-DL/b2.jpg)
 
