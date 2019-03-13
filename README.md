@@ -6,7 +6,7 @@ Latest versions:
 
 Windows:   
 Ti-DL: 13th Mar 19 - Release 1d   
-Ti-DL GUI: 13th Mar 19 - v0.0.5   
+Ti-DL GUI: 13th Mar 19 - v0.0.5 **Malwarebytes machine learning false positive**   
 
 Linux:   
 Ti-DL: 13th Mar 19 - Release 1d 
