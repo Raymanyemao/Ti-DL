@@ -13,11 +13,6 @@ Ti-DL: 13th Mar 19 - Release 1d
 macOS:   
 Ti-DL: 13th Mar 19 - Release 1d 
 
-
-Latest version:    
-Ti-DL: 3rd Mar 19 - Release 1c   
-Ti-DL Linux: 3rd Mar 19 - Release 1c
-
 ![](https://thoas.feralhosting.com/sorrow/Tidal-DL/b1.jpg)
 ![](https://thoas.feralhosting.com/sorrow/Tidal-DL/b2.jpg)
 
