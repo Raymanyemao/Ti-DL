@@ -2,6 +2,18 @@
 Tool written in Python to download AACs & FLACs from Tidal for Windows and Linux.
 Sister of [Qo-DL](https://github.com/Sorrow446/Qobuz-DL).
 
+Latest versions:   
+
+Windows:   
+Ti-DL: 13th Mar 19 - Release 1d   
+
+Linux:   
+Ti-DL: 13th Mar 19 - Release 1d 
+
+macOS:   
+Ti-DL: 13th Mar 19 - Release 1d 
+
+
 Latest version:    
 Ti-DL: 3rd Mar 19 - Release 1c   
 Ti-DL Linux: 3rd Mar 19 - Release 1c
@@ -31,22 +43,27 @@ You can specify what you want to be put into the comment field in your tracks. S
 Fill in your config file first.
 ### Windows ###
 Run the exe.
-### Linux ###
+### Linux & macOS ###
 CD to wherever the exe is.
 ```
 cd Desktop
 ```
 Make it executable.
 ```
-chmod +x Ti-DL_Lin_x86
+chmod +x Ti-DL_Lin_x64
 ```
 Launch it.
 ```
-./Ti-DL_Lin_x86
+./Ti-DL_Lin_x64
+```
+or just:
+```
+chmod +x /Desktop/Ti-DL_Lin_x64
+./Desktop/Ti-DL_Lin_x64
 ```
 
-Ti-DL can also be used via command line.
-Ex:
+Ti-DL can also be used via command line.   
+**Make sure you cd to Ti-DL's dir before calling it or it might not be able to read your config file properly.**   
 ```
 usage: Ti-DL.py [-h] [-url URL] [-q Q] [-p P] [-list LIST] [-c C] [-s S]
                    [-k K]
@@ -88,7 +105,15 @@ Account doesn't have a subscription.
 - Less strict filename & dir name replace regex. Brackets and commas were being replaced before.
 - Windows' max path limit handled. I couldn't do much about this. Tidal-DL won't crash anymore if it runs into this. The track's filename will be left as it was before the renaming attempt. Tags won't be affected.
 - Unneeded cover.jpg wasn't being deleted before termination. This would only happen when used via command line.
-
+### 13th Mar 19 - Release 1d ###
+- Fixed filename / dir name replace regex. Only the characters the OS doesn't support in filenames will be replaced now.
+- Fixed the below.
+```
+TypeError: string indices must be integers
+```
+This would only happen to tracks which contain artist(s) with only numbers in them.  
+- Added x64 Linux and macOS builds.
+- Default download folder changed from "Tidal-DL Downloads" to "Ti-DL Downloads".
 # Misc Info
 Written around Python v3.6.7.
 Used libraries:
@@ -104,6 +129,7 @@ Used libraries:
 - re
 - requests
 - shutil
+- ssl (mac builds only)
 - sys
 - time
 - urllib.request
